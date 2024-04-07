@@ -33,7 +33,7 @@ const updateToDo = (toDoId, text, _id, setToDo, setText, setIsUpdating) => {
     })
     .catch((err) => console.log(err))
 }
-
+// giugkhhkk
 const deleteToDo = (_id, setToDo) => {
     axios
       .post(`${baseUrl}/delete`, { data: { _id: setToDo} })
