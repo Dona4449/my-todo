@@ -25,8 +25,8 @@ module.exports.updateToDo = async (req, res) => {
     const { _id, text } = req.body
 
     ToDoModel
-        .findByIdAndUpdate({ _id,text })
-        .then(() => res.send(data))
+        .findByIdAndUpdate({ _id, text })
+        .then(() => res.send("updated successfully"))
         .catch((err) => console.log(err))
 }
 

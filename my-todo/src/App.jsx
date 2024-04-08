@@ -38,7 +38,7 @@ function App() {
           <div
             className="add"
             onClick={isUpdating ?
-              () => updateToDo(toDoId, text, setToDo, setText, isUpdating)
+              () => updateToDo(toDoId, text, setToDo, setText, setIsUpdating)
               : () => addToDo(text, setText, setToDo)}>
             {isUpdating ? "Update" : "Add"}
           </div>

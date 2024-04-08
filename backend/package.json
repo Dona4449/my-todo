@@ -4,7 +4,7 @@
   "description": "a website for day to day journal.",
   "main": "Server.js",
   "scripts": {
-    "start": "node Server.js"
+    "start": "nodemon Server.js"
   },
   "license": "MIT",
   "dependencies": {
